@@ -1,112 +1,41 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/*  your css code here. If applicable */
+.container{
+	display: flex;
+	gap: 2rem;
 }
-
-body {
-  background-color: #f0f2f5;
-  font-family: sans-serif;
+#logo{
+	color: #1877f2;	
 }
-
-.container {
-  max-width: 980px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+#desc{
+	font-weight: 600;
 }
-
-.logo {
-  text-align: center;
-  margin-bottom: 50px;
+#log{
+	background: #1877f2;
+	border: none;
+	border-radius: 6px;
+    font-size: 19px;
+	line-height: 30px;
+	padding: 0 100px;
+	color: white;
+	
 }
-
-.logo i {
-  color: #1877f2;
+#account{
+	background: #42b72a;
+	border: none;
+    border-radius: 6px;
+    font-size: 19px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-left: 9px;
+	padding-right: 9px;
+	color: white;
+	line-height: 48px;
 }
-
-.logo h1 {
-  display: inline-block;
-  font-size: 50px;
-  color: #1877f2;
-  margin-left: 10px;
-}
-
-.logo p {
-  font-size: 20px;
-  color: #666;
-  margin-top: 20px;
-}
-
-.login {
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-  padding: 50px;
-  text-align: center;
-}
-
-.login form {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
-
-.login label {
-  font-size: 16px;
-  color: #666;
-  margin-bottom: 5px;
-  text-align: left;
-  margin-left: 20px;
-}
-
-.login input[type="text"],
-.login input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
-}
-
-.login button {
-  background-color: #1877f2;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
-  font-size: 18px;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.login button:hover {
-  background-color: #166fe5;
-}
-
-.login a {
-  color: #1877f2;
-  text-decoration: none;
-  font-size: 16px;
-  margin-bottom: 20px;
-  display: inline-block;
-}
-
-.signup {
-  text-align: center;
-}
-
-.signup p {
-  font-size: 18px;
-  color: #666;
-}
-
-.signup a {
-  color: #1877f2;
-  text-decoration: none;
+#p{
+	border-bottom: 2px solid #dadde1;
+	display: flex ;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 10px;
+	color: #1877f2;
 }
